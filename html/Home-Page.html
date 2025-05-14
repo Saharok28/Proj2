@@ -1,11 +1,740 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="/css/Home-Page.css">
+  <title>FutureTech AI</title>
 </head>
 <body>
+
+  <header class="header">
+    <div class="header__top">
+      <div class="header__newsletter">
+        <p class="header__newsletter-text">Subscribe to our Newsletter For New & latest Blogs and Resources</p>
+      </div>
+      <picture class="header__icon">
+        <source media="(min-width: )" srcset="">
+        <img src="/Icon.svg" alt="" class="header__icon-img">
+      </picture>
+    </div>
+    <div class="header__main">
+      <div class="header__logo-group">
+        <picture class="header__logo">
+          <source media="(min-width: )" srcset="/Logo.svg">
+          <img src="./Logo.svg" alt="" class="header__logo-img">
+        </picture>
+        <picture class="header__heading">
+          <img src="/Heading(1).svg" alt="" class="header__heading-img">
+        </picture>
+      </div>
+      <div class="header__nav">
+        <div class="header__nav-item"><button class="header__button">Home</button></div>
+        <div class="header__nav-item"><button class="header__button">News</button></div>
+        <div class="header__nav-item"><button class="header__button">Podcasts</button></div>
+        <div class="header__nav-item"><button class="header__button"><p class="header__button-text">Resources</p></button></div>
+        <div class="header__nav-item"><button class="header__button"><p class="header__button-text">Contact Us</p></button></div>
+      </div>
+    </div>
+  </header>
+  <main class="page-main">
+    <section class="hero">
+      <div class="hero__container">
+        <div class="hero__text">
+          <p class="hero__subtitle">Your Journey to Tomorrow Begins Here</p>
+          <h1 class="hero__title">Explore the Frontiers of Artificial Intelligence</h1>
+          <p class="hero__description">Welcome to the epicenter of AI innovation. FutureTech AI News is your passport to a world where machines think, learn, and reshape the future.</p>
+        </div>
+
+        <div class="hero__stats">
+          <div class="hero__stat">
+            <p class="hero__stat-value">300 <span class="hero__stat-plus">+</span></p>
+            <p class="hero__stat-label">Resources available</p>
+          </div>
+          <div class="hero__stat">
+            <p class="hero__stat-value">12k <span class="hero__stat-plus">+</span></p>
+            <p class="hero__stat-label">Total Downloads</p>
+          </div>
+          <div class="hero__stat">
+            <p class="hero__stat-value">10k <span class="hero__stat-plus">+</span></p>
+            <p class="hero__stat-label">Active Users</p>
+          </div>
+        </div>
+
+        <div class="hero__media">
+          <picture class="hero__media-bg">
+            
+            <img src="/images-Hero/Group.png" alt="" />
+          </picture>
+          <div class="hero__gallery">
+            <img class="hero__gallery-item" src="/images-Hero/portet1.png" alt="" />
+            <img class="hero__gallery-item" src="/images-Hero/portret2.png" alt="" />
+            <img class="hero__gallery-item" src="/images-Hero/portret3.png" alt="" />
+            <img class="hero__gallery-item" src="/images-Hero/portret4.png" alt="" />
+          </div>
+          <p class="hero__resources-title">Explore 1000+ resources</p>
+          <p class="hero__resources-text">Over 1,000 articles on emerging tech trends and breakthroughs.</p>
+          <button class="hero__resources-button">
+            <span class="hero__resources-button-text">Explore Resources</span>
+            <svg class="hero__resources-icon"><use href="/svg/all.svg#icon-arrow"/></svg>
+          </button>
+        </div>
+
+        <ul class="hero__cards">
+          <li class="card hero__card">
+            <div class="card__content">
+              <div class="card__icon">
+                <svg class="card__icon-image"><use href="/svg/all.svg#icon-cross" /></svg>
+              </div>
+              <div class="card__info">
+                <p class="card__title">Smart Solutions</p>
+                <p class="card__description">Innovative tools that empower future-ready businesses.</p>
+                <button class="card__button">
+                  <svg class="card__button-icon"><use href="/svg/all.svg#icon-arrow" /></svg>
+                </button>
+              </div>
+            </div>
+          </li>
+          <li class="card hero__card">
+            <div class="card__content">
+              <div class="card__icon">
+                <svg class="card__icon-image"><use href="/svg/all.svg#icon-target" /></svg>
+              </div>
+              <div class="card__info">
+                <p class="card__title">AI Insights</p>
+                <p class="card__description">Expert analysis on trends, tools, and breakthroughs.</p>
+                <button class="card__button">
+                  <svg class="card__button-icon"><use href="/svg/all.svg#icon-arrow" /></svg>
+                </button>
+              </div>
+            </div>
+          </li>
+          <li class="card hero__card">
+            <div class="card__content">
+              <div class="card__icon">
+                <svg class="card__icon-image"><use href="/svg/all.svg#icon-ellipse" /></svg>
+              </div>
+              <div class="card__info">
+                <p class="card__title">Future Networks</p>
+                <p class="card__description">Connecting the brightest minds in the AI ecosystem.</p>
+                <button class="card__button">
+                  <svg class="card__button-icon"><use href="/svg/all.svg#icon-arrow" /></svg>
+                </button>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="features__header">
+        <button class="features__header-button">
+          <span class="features__header-button-text">View All</span>
+        </button>
+        <h1 class="features__title">FutureTech Features</h1>
+      </div>
+
+      <div class="features__block features__block--tech">
+        <div class="features__block-header">
+          <svg class="features__icon"><use href="/svg/all.svg#icon-circles" /></svg>
+          <h3 class="features__heading">AI Trends</h3>
+          <p class="features__subheading">Stay informed with trends shaping the future of AI.</p>
+        </div>
+        <ul class="features__list">
+          <li class="features__item">
+            <h3 class="features__item-title">Quantity</h3>
+            <p class="features__text">Over 1,000 articles on emerging tech trends and breakthroughs.</p>
+          </li>
+          <li class="features__item">
+            <h3 class="features__item-title">Variety</h3>
+            <p class="features__text">AI, robotics, biotech, and more — all in one place.</p>
+          </li>
+          <li class="features__item">
+            <h3 class="features__item-title">Frequency</h3>
+            <p class="features__text">Daily updates to keep you ahead of the curve.</p>
+          </li>
+          <li class="features__item">
+            <h3 class="features__item-title">Authoritative</h3>
+            <p class="features__text">Written by leading experts and analysts.</p>
+          </li>
+        </ul>
+      </div>
+
+      <div class="features__block features__block--insights">
+        <div class="features__block-header">
+          <svg class="features__icon"><use href="/svg/all.svg#icon-triangle-rectangle" /></svg>
+          <h3 class="features__heading">Deep Insights</h3>
+          <p class="features__subheading">In-depth explorations of emerging technologies.</p>
+        </div>
+        <ul class="features__list">
+          <li class="features__item">
+            <h3 class="features__item-title">Research-Based</h3>
+            <p class="features__text">500+ research papers and whitepapers analyzed.</p>
+          </li>
+          <li class="features__item">
+            <h3 class="features__item-title">Visual Guides</h3>
+            <p class="features__text">Infographics to simplify complex ideas.</p>
+          </li>
+          <li class="features__item">
+            <h3 class="features__item-title">Trend Mapping</h3>
+            <p class="features__text">Track developments in AI, robotics, and beyond.</p>
+          </li>
+          <li class="features__item">
+            <h3 class="features__item-title">Academic-Driven</h3>
+            <p class="features__text">Created in collaboration with top institutions.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="blog">
+      <div class="blog__intro">
+        <div class="blog__intro-wrapper">
+          <div class="blog__intro-text-block">
+            <div class="blog__intro-text">
+              <p class="blog__intro-label">Welcome to Our News Hub</p>
+            </div>
+            <h1 class="blog__intro-title">Discover the World of Headlines</h1>
+          </div>
+          <div class="blog__related-header">
+            <h2 class="blog__related-title">Similar News</h2>
+            <button class="blog__button blog__button--view-all">
+              <p class="blog__button-text">View All News
+              </p>
+              <svg class="features__icon"><use href="/svg/all.svg#icon-arrow" /></svg>
+            </button>
+          </div>
+        </div>
     
+        <div class="blog__categories">
+          <button class="blog__categories-button"><p>All</p></button>
+          <button class="blog__categories-button"><p>Technology</p></button>
+          <button class="blog__categories-button"><p>Politics</p></button>
+          <button class="blog__categories-button"><p>Health</p></button>
+          <button class="blog__categories-button"><p>Environment</p></button>
+          <button class="blog__categories-button"><p>Sports</p></button>
+        </div>
+    
+        <div class="blog__featured">
+          <div class="blog__featured-card">
+            <div class="blog__featured-profile">
+              <picture class="blog__featured-image">
+                <source>
+                <img src="/images-Hero/portret5.png" alt="">
+              </picture>
+              <div class="blog__featured-info">
+                <h4 class="blog__featured-author">John Techson</h4>
+                <p class="blog__featured-category">Technology</p>
+              </div>
+            </div>
+            <div class="blog__featured-content">
+              <div class="blog__featured-meta">
+                <p class="blog__featured-date">October 15, 2023</p>
+                <div class="blog__featured-text">
+                  <h3 class="blog__featured-headline">Tech Giants Announce New Product Line</h3>
+                  <p class="blog__featured-description">Explore the latest innovations from tech industry leaders, unveiling new products that promise to transform the digital landscape</p>
+                </div>
+                <div class="blog__featured-stats">
+                  <div class="blog__featured-stat">
+                    <svg class="features__icon"><use href="/svg/all.svg#icon-heard" /></svg>
+                    <p>24.5k</p>
+                  </div>
+                  <div class="blog__featured-stat">
+                    <svg class="features__icon"><use href="/svg/all.svg#icon-coment" /></svg>
+                    <p>50</p>
+                  </div>
+                  <div class="blog__featured-stat">
+                     <svg class="features__icon"><use href="/svg/all.svg#icon-plane" /></svg>
+                    <p>20</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="blog__button blog__button--read-more">
+              <p class="blog__button-text">Read More</p>
+              <svg class="features__icon"><use href="/svg/all.svg#icon-arrow" /></svg>
+            </button>
+          </div>
+    
+          <div class="blog__featured-card">
+            <div class="blog__featured-profile">
+              <picture class="blog__featured-image">
+                <source>
+                <img src="/images-Hero/portret6.png" alt="">
+              </picture>
+              <div class="blog__featured-info">
+                <h4 class="blog__featured-author">Sarah Ethicist</h4>
+                <p class="blog__featured-category">Technology</p>
+              </div>
+            </div>
+            <div class="blog__featured-content">
+              <div class="blog__featured-meta">
+                <p class="blog__featured-date">October 11, 2023</p>
+                <div class="blog__featured-text">
+                  <h3 class="blog__featured-headline">The Future of Autonomous Vehicles</h3>
+                  <p class="blog__featured-description">An in-depth analysis of the rapid advancements in autonomous vehicle technology and their impact on transportation.</p>
+                </div>
+                <div class="blog__featured-stats">
+                  <div class="blog__featured-stat">
+                    <svg><use href="/svg/all.svg#icon-heard" /></svg>
+                    <p>32k</p>
+                  </div>
+                  <div class="blog__featured-stat">
+                    <svg ><use href="/svg/all.svg#icon-coment" /></svg>
+                    <p>72</p>
+                  </div>
+                  <div class="blog__featured-stat">
+                    <svg ><use href="/svg/all.svg#icon-plane" /></svg>
+                    <p>18</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="blog__button blog__button--read-more">
+              <p class="blog__button-text">Read More</p>
+              <svg ><use href="/svg/all.svg#icon-arrow" /></svg>
+            </button>
+          </div>
+    
+          <div class="blog__featured-card">
+            <div class="blog__featured-profile">
+              <picture class="blog__featured-image">
+                <source>
+                <img src="/images-Hero/portret7.png" alt="">
+              </picture>
+              <div class="blog__featured-info">
+                <h4 class="blog__featured-author">Astronomer X</h4>
+                <p class="blog__featured-category">Technology</p>
+              </div>
+            </div>
+            <div class="blog__featured-content">
+              <div class="blog__featured-meta">
+                <p class="blog__featured-date">December 10, 2023</p>
+                <div class="blog__featured-text">
+                  <h3 class="blog__featured-headline">Tech Startups Secure Record Funding</h3>
+                  <p class="blog__featured-description">An overview of the recent surge in funding for tech startups, shaping the entrepreneurial landscape.</p>
+                </div>
+                <div class="blog__featured-stats">
+                  <div class="blog__featured-stat">
+                    <svg><use href="/svg/all.svg#icon-heard" /></svg>
+                    <p>20k</p>
+                  </div>
+                  <div class="blog__featured-stat">
+                    <svg ><use href="/svg/all.svg#icon-coment" /></svg>
+                    <p>31</p>
+                  </div>
+                  <div class="blog__featured-stat">
+                    <svg ><use href="/svg/all.svg#icon-plane" /></svg>
+                    <p>12</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="blog__button blog__button--read-more">
+              <p class="blog__button-text">Read More</p>
+              <svg ><use href="/svg/all.svg#icon-arrow" /></svg>
+            </button>
+          </div>
+        </div>
+    </section>
+    
+
+
+    <section class="resources">
+      <div class="resources__intro">
+        <div class="hero__text">
+          <p class="hero__subtitle">Your Gateway to In-Depth Informatio</p>
+          <h1 class="hero__title">Unlock Valuable Knowledge with FutureTech's Resources</h1>
+       
+        </div>
+        <button>
+          <p>View All Resource</p>
+          <svg class="card__button-icon"><use href="#icon-arrow" /></svg>
+        </button>
+        </div>
+
+        <ul class="resources__list">
+          <li class="resources__item">
+            <div class="resource-card resource-card--ebooks">
+              <div class="resource-card__content">
+                <svg class="resource-card__icon"><use href="/svg/all.svg#icon-circle" /></svg>
+                <h2 class="resource-card__title">Ebooks</h2>
+                <p class="resource-card__description">Explore our collection of ebooks covering a wide spectrum of future technology topics.</p>
+                <button class="resource-card__button">
+                  <p class="resource-card__button-text">Download Ebooks Now</p>
+                  <svg class="resource-card__icon"><use href="/svg/all.svg#icon-arrow" /></svg>
+                </button>
+                <div class="resource-card__downloads">
+                  <p class="resource-card__downloads-label">Downloaded By</p>
+                  <h4 class="resource-card__downloads-count">10k+ Users</h4>
+                  <div class="resource-card__gallery">
+                    <img class="resource-card__gallery-item" src="/images-Hero/portet1.png" alt="" />
+                    <img class="resource-card__gallery-item" src="/images-Hero/portret2.png" alt="" />
+                    <img class="resource-card__gallery-item" src="/images-Hero/portret3.png" alt="" />
+                    <img class="resource-card__gallery-item" src="/images-Hero/portret4.png" alt="" />
+                  </div>
+                </div>
+              </div>
+    
+              <div class="resource-card__details">
+                <h3 class="resource-card__subtitle">Variety of Topics</h3>
+                <p class="resource-card__text">Topics include AI in education (25%), renewable energy (20%), healthcare (15%), space exploration (25%), and biotechnology (15%).</p>
+                <picture class="resource-card__image">
+                  <img src="/images-Hero/screen1.png" alt="">
+                </picture>
+                <div class="resource-card__stat">
+                  <p class="resource-card__stat-label">Total Ebooks</p>
+                  <h4 class="resource-card__stat-value">Over 100 ebooks</h4>
+                </div>
+                <div class="resource-card__format">
+                  <div class="resource-card__format-info">
+                    <p class="resource-card__format-label">Download Formats</p>
+                    <h4 class="resource-card__format-value">PDF format for access.</h4>
+                  </div>
+                  <button class="resource-card__preview-button">
+                    <p class="resource-card__preview-text">Preview</p>
+                    <svg class="resource-card__icon"><use href="/svg/all.svg#icon-circle-dash" /></svg>
+                  </button>
+                </div>
+                <div class="resource-card__author">
+                  <p class="resource-card__author-label">Average Author Expertise</p>
+                  <h4 class="resource-card__author-value">Ebooks are authored by renowned experts with an average of 15 years of experience</h4>
+                </div>
+              </div>
+            </div>
+          </li>
+    
+          <li class="resources__item">
+            <div class="resource-card resource-card--whitepapers">
+              <div class="resource-card__content">
+                <svg class="resource-card__icon"><use href="" /></svg>
+                <h2 class="resource-card__title">Whitepapers</h2>
+                <p class="resource-card__description">Dive into comprehensive reports and analyses with our collection of whitepapers.</p>
+                <button class="resource-card__button">
+                  <p class="resource-card__button-text">Download Whitepapers Now</p>
+                  <svg class="resource-card__icon"><use href="/svg/all.svg#icon-arrow" /></svg>
+                </button>
+                <div class="resource-card__downloads">
+                  <p class="resource-card__downloads-label">Downloaded By</p>
+                  <h4 class="resource-card__downloads-count">10k+ Users</h4>
+                  <div class="resource-card__gallery">
+                    <img class="resource-card__gallery-item" src="/images-Hero/portret8.png" alt="" />
+                    <img class="resource-card__gallery-item" src="/images-Hero/portret9.png" alt="" />
+                    <img class="resource-card__gallery-item" src="/images-Hero/portret10.png" alt="" />
+                    <img class="resource-card__gallery-item" src="/images-Hero/portret11.png" alt="" />
+                  </div>
+                </div>
+              </div>
+    
+              <div class="resource-card__details">
+                <h3 class="resource-card__subtitle">Topics Coverage</h3>
+                <p class="resource-card__text">Whitepapers cover quantum computing (20%), AI ethics (15%), space mining prospects (20%), AI in healthcare (15%), and renewable energy strategies (30%).</p>
+                <picture class="resource-card__image">
+                  <img src="/images-Hero/screen2.png" alt="">
+                </picture>
+                <div class="resource-card__stat">
+                  <p class="resource-card__stat-label">Total Whitepapers</p>
+                  <h4 class="resource-card__stat-value">Over 50 whitepapers</h4>
+                </div>
+                <div class="resource-card__format">
+                  <div class="resource-card__format-info">
+                    <p class="resource-card__format-label">Download Formats</p>
+                    <h4 class="resource-card__format-value">PDF format for access.</h4>
+                  </div>
+                  <button class="resource-card__preview-button">
+                    <p class="resource-card__preview-text">Preview</p>
+                    <svg class="resource-card__icon"><use href="/svg/all.svg#icon-circle-dash" /></svg>
+                  </button>
+                </div>
+                <div class="resource-card__author">
+                  <p class="resource-card__author-label">Average Author Expertise</p>
+                  <h4 class="resource-card__author-value">Whitepapers are authored by subject matter experts with an average of 20 years of experience.</h4>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    
+    
+    <section class="testimonials">
+      <div class="resources__intro">
+        <div class="hero__text">
+          <p class="hero__subtitle">Your Gateway to In-Depth Informatio</p>
+          <h1 class="hero__title">Unlock Valuable Knowledge with FutureTech's Resources</h1>
+       
+        </div>
+        <button>
+          <p>View All Resource</p>
+          <svg class="card__button-icon"><use href="/svg/all.svg#icon-arrow" /></svg>
+        </button>
+        </div>
+
+        <ul>
+          <li>
+            <div>
+              <picture>
+                <img src="/images-Hero/Profile.png" alt="">
+              </picture>
+              <p>Raj Patel</p>
+              <p>Mumbai, India</p>
+            </div>
+            <div class="star">
+              
+                 <svg class="resource-card__icon"><use href="/svg/all.svg#icon-star" /></svg>
+                 <svg class="resource-card__icon"><use href="/svg/all.svg#icon-star" /></svg>
+                 <svg class="resource-card__icon"><use href="/svg/all.svg#icon-star" /></svg>
+                 <svg class="resource-card__icon"><use href="/svg/all.svg#icon-star" /></svg>
+                 <svg class="resource-card__icon"><use href="/svg/all.svg#icon-star" /></svg>
+            </div>
+            <div>
+              <p>The whitepapers on renewable energy strategies have greatly influenced my work. They offer detailed data and analysis, helping me make informed decisions.</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <picture>
+                <img src="/images-Hero/Profile (1).png" alt="">
+              </picture>
+              <p>Sarah Thompson</p>
+              <p>San Francisco, USA</p>
+            </div>
+            <div class="star">
+              <svg class="resource-card__icon"><use href="/svg/all.svg#icon-star" /></svg>
+              <svg class="resource-card__icon"><use href="/svg/all.svg#icon-star" /></svg>
+              <svg class="resource-card__icon"><use href="/svg/all.svg#icon-star" /></svg>
+              <svg class="resource-card__icon"><use href="/svg/all.svg#icon-star" /></svg>
+              <svg class="resource-card__icon"><use href="/svg/all.svg#icon-star" /></svg>
+            </div>
+            <div>
+              <p>The ebooks on AI in education have been a game-changer for my research. They provide in-depth insights and case studies that are invaluable for staying updated.</p>
+            </div>
+          </li>
+          <li>
+          <div>
+            <picture>
+              <img src="/images-Hero/Profile (2).png" alt="">
+            </picture>
+            <p>Emily Adams</p>
+            <p>London, UK</p>
+          </div>
+          <div class="star">
+            <svg class="resource-card__icon"><use href="/svg/all.svg#icon-star" /></svg>
+                 <svg class="resource-card__icon"><use href="/svg/all.svg#icon-star" /></svg>
+                 <svg class="resource-card__icon"><use href="/svg/all.svg#icon-star" /></svg>
+                 <svg class="resource-card__icon"><use href="/svg/all.svg#icon-star" /></svg>
+                 <svg class="resource-card__icon"><use href="/svg/all.svg#icon-star" /></svg>
+          </div>
+          <div>
+            <p>The AI in healthcare reports have been an essential resource for our hospital. They highlight the latest innovations and best practices, improving patient care.</p>
+          </div>
+        </li>
+          <li>
+            <div>
+              <picture>
+                <img src="/images-Hero/Profile (3).png" alt="">
+              </picture>
+              <p>Alan Jackson</p>
+              <p>Houston, USA</p>
+            </div>
+            <div class="star">
+              <svg class="resource-card__icon"><use href="/svg/all.svg#icon-star" /></svg>
+                 <svg class="resource-card__icon"><use href="/svg/all.svg#icon-star" /></svg>
+                 <svg class="resource-card__icon"><use href="/svg/all.svg#icon-star" /></svg>
+                 <svg class="resource-card__icon"><use href="/svg/all.svg#icon-star" /></svg>
+                 <svg class="resource-card__icon"><use href="/svg/all.svg#icon-star" /></svg>
+            </div>
+            <div>
+              <p>The reports on space mining prospects have fueled my passion for space exploration. They provide a comprehensive view of what lies beyond Earth.</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <picture>
+                <img src="/images-Hero/Profile (4).png" alt="">
+              </picture>
+              <p>Jessica Miller</p>
+              <p>Boston, USA</p>
+            </div>
+            <div class="star">
+              <svg class="resource-card__icon"><use href="/svg/all.svg#icon-star" /></svg>
+                 <svg class="resource-card__icon"><use href="/svg/all.svg#icon-star" /></svg>
+                 <svg class="resource-card__icon"><use href="/svg/all.svg#icon-star" /></svg>
+                 <svg class="resource-card__icon"><use href="/svg/all.svg#icon-star" /></svg>
+                 <svg class="resource-card__icon"><use href="/svg/all.svg#icon-star" /></svg>
+            </div>
+            <div>
+              <p>The research papers on genomic breakthroughs have been a goldmine of information. They've shaped the direction of my research in genomics.</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <picture>
+                <img src="/images-Hero/Profile (5).png" alt="">
+              </picture>
+              <p>Diego Lopez</p>
+              <p>Barcelona, Spain</p>
+            </div>
+            <div class="star">
+              <svg class="resource-card__icon"><use href="/svg/all.svg#icon-star" /></svg>
+                 <svg class="resource-card__icon"><use href="/svg/all.svg#icon-star" /></svg>
+                 <svg class="resource-card__icon"><use href="/svg/all.svg#icon-star" /></svg>
+                 <svg class="resource-card__icon"><use href="/svg/all.svg#icon-star" /></svg>
+                 <svg class="resource-card__icon"><use href="/svg/all.svg#icon-star" /></svg>
+            </div>
+            <div>
+              <p>The ebooks on renewable energy strategies have given me the insights I needed to pivot our startup toward sustainability.</p>
+            </div>
+          </li>
+        </ul>
+    </section>
+  </main>
+  <footer class="page-footer"></footer>
 </body>
+
+<header class="header">
+              <div class="header__top">
+                <div class="header__newsletter">
+                  <p class="header__newsletter-text">Subscribe to our Newsletter For New & latest Blogs and Resources</p>
+                </div>
+                <picture class="header__icon">
+                  <source media="(min-width: )" srcset="">
+                  <img src="/Icon.svg" alt="" class="header__icon-img">
+                </picture>
+              </div>
+              <div class="header__main">
+                <div class="header__logo-group">
+                  <picture class="header__logo">
+                    <source media="(min-width: )" srcset="/Logo.svg">
+                    <img src="./Logo.svg" alt="" class="header__logo-img">
+                  </picture>
+                  <picture class="header__heading">
+                    <img src="/Heading(1).svg" alt="" class="header__heading-img">
+                  </picture>
+                </div>
+                <div class="header__nav">
+                  <div class="header__nav-item"><button class="header__button">Home</button></div>
+                  <div class="header__nav-item"><button class="header__button">News</button></div>
+                  <div class="header__nav-item"><button class="header__button">Podcasts</button></div>
+                  <div class="header__nav-item"><button class="header__button"><p class="header__button-text">Resources</p></button></div>
+                  <div class="header__nav-item"><button class="header__button"><p class="header__button-text">Contact Us</p></button></div>
+                </div>
+              </div>
+            </header>
+            
+            <footer class="footer">
+              <div class="footer__top">
+                <div class="footer__section">
+                  <h2 class="footer__title">Home</h2>
+                  <ul class="footer__list list">
+                    <li class="list__item"><a href="">Features</a></li>
+                    <li class="list__item"><a href="">Blogs</a></li>
+                    <li class="list__item"><a href="">Resources</a></li>
+                    <li class="list__item"><a href="">Testimonials</a></li>
+                    <li class="list__item"><a href="">Contact Us</a></li>
+                    <li class="list__item"><a href="">Newsletter</a></li>
+                  </ul>
+                </div>
+                <div class="footer__section">
+                  <h2 class="footer__title">News</h2>
+                  <ul class="footer__list list">
+                    <li class="list__item"><a href="">Trending Stories</a></li>
+                    <li class="list__item"><a href="">Featured Videos</a></li>
+                    <li class="list__item"><a href="">Technology</a></li>
+                    <li class="list__item"><a href="">Health</a></li>
+                    <li class="list__item"><a href="">Politics</a></li>
+                    <li class="list__item"><a href="">Environment</a></li>
+                  </ul>
+                </div>
+                <div class="footer__section">
+                  <h2 class="footer__title">Blogs</h2>
+                  <ul class="footer__list list">
+                    <li class="list__item"><a href="">Quantum Computing</a></li>
+                    <li class="list__item"><a href="">AI Ethics</a></li>
+                    <li class="list__item"><a href="">Space Exploration</a></li>
+                    <li class="list__item"><a href="">Biotechnology</a></li>
+                    <li class="list__item"><a href="">Renewable Energy</a></li>
+                    <li class="list__item"><a href="">Biohacking</a></li>
+                  </ul>
+                </div>
+                <div class="footer__section">
+                  <h2 class="footer__title">Podcasts</h2>
+                  <ul class="footer__list list">
+                    <li class="list__item"><a href="">AI Revolution</a></li>
+                    <li class="list__item"><a href="">AI Revolution</a></li>
+                    <li class="list__item"><a href="">TechTalk AI</a></li>
+
+
+<li class="list__item"><a href="">AI Conversations</a></li>
+                  </ul>
+                </div>
+                <div class="footer__section">
+                  <h2 class="footer__title">Resources</h2>
+                  <button class="footer__button">
+                    <p class="footer__button-text">Whitepapers</p>
+                    <picture class="footer__icon">
+                      <source media="(min-width: )" srcset="">
+                      <img src="/Icon.svg" alt="">
+                    </picture>
+                  </button>
+                  <button class="footer__button">
+                    <p class="footer__button-text">Ebooks</p>
+                    <picture class="footer__icon">
+                      <source media="(min-width: )" srcset="">
+                      <img src="/Icon.svg" alt="">
+                    </picture>
+                  </button>
+                  <button class="footer__button">
+                    <p class="footer__button-text">Reports</p>
+                    <picture class="footer__icon">
+            
+            <source media="(min-width: )" srcset="">
+                      <img src="/Icon.svg" alt="">
+                    </picture>
+                  </button>
+                  <button class="footer__button">
+                    <p class="footer__button-text">Research Papers</p>
+                    <picture class="footer__icon">
+                      <source media="(min-width: )" srcset="">
+                      <img src="/Icon.svg" alt="">
+                    </picture>
+                  </button>
+                </div>
+              </div>
+            
+              <div class="footer__bottom">
+                <div class="footer__legal">
+                  <ul class="footer__list list">
+                    <li class="list__item"><a href="">Terms & Conditions|Privacy Policy</a></li>
+                  </ul>
+                </div>
+                <div class="footer__socials">
+                  <button class="footer__social-button">
+                    <picture>
+                      <source media="(min-width: )" srcset="">
+                      <img src="/Vector (2).svg" alt="">
+                    </picture>
+                  </button>
+                  <button class="footer__social-button">
+                    <picture>
+                      <source media="(min-width: )" srcset="">
+                      <img src="/Icon (2).svg" alt="">
+                    </picture>
+                  </button>
+                  <button class="footer__social-button">
+                    <picture>
+                      <source media="(min-width: )" srcset="">
+                      <img src="/Vector (1).svg" alt="">
+                    </picture>
+                  </button>
+                </div>
+                <div class="footer__copyright">
+                  <ul class="footer__list list">
+                    <li class="list__item"><a href="">© 2024 FutureTech. All rights reserved.</a></li>
+                  </ul>
+                </div>
+              </div>
+            </footer>
 </html>
