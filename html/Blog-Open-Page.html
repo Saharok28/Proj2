@@ -5,6 +5,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="./style.css">
   <link href="https://fonts.cdnfonts.com/css/inter" rel="stylesheet">
   <link rel="stylesheet" href="/css/reset.css">
@@ -16,9 +20,12 @@
 
 <body class="page">
   <section class="page__wrapper">
-    <div class="section-title">
+     <div class="section-title">
       <h1 class="section-title_text">The Rise of Artificial Intelligence in Healthcare</h1>
     </div>
+    <div class="section__elems">
+    <div class="section__info">
+   
     <div class="section--elems">
     <div class="section--intro">
       <h2 class="section__title">Introduction</h2>
@@ -29,32 +36,19 @@
       <h2 class="section__title">Artificial Intelligence (AI)</h2>
       <p class="section__text">Artificial Intelligence (AI) has permeated virtually every aspect of our lives, and healthcare is no exception. The integration of AI in healthcare is ushering in a new era of medical practice, where machines complement the capabilities of healthcare professionals, ultimately improving patient outcomes and the efficiency of the healthcare system. In this blog post, we will delve into the diverse applications of AI in healthcare, from diagnostic imaging to personalized treatment plans, and address the ethical considerations surrounding this revolutionary technology.</p>
     
-
+      <div class="container">
       <h2 class="section__title">Predictive Analytics and Disease Prevention</h2>
       <p class="section__text">One of the most prominent applications of AI in healthcare is in diagnostic imaging. AI algorithms have demonstrated remarkable proficiency in interpreting medical images such as X-rays, MRIs, and CT scans. They can identify anomalies and deviations that might be overlooked by the human eye. This is particularly valuable in early disease detection. For instance, AI can aid radiologists in detecting minute irregularities in mammograms or identifying critical findings in chest X-rays, potentially indicative of life-threatening conditions.</p>
-
+</div>
       <div class="button__container">
       <button class="button--read-full">
         <p class="button__text">Read Full Blog</p>
-        <svg class="card__button-icon"><use href="/svg/all.svg#icon-arrow-down" /></svg>
+        <svg class="card__button-icon"><use href="./svg/arrow.svg#arrow-down-icon" /></svg>
       </button>
     </div>
     </div>
-
-    <div class="stats">
-      <div class="stats__item">
-        <svg class="card__button-icon"><use href="/svg/all.svg#icon-heard" /></svg>
-        <p class="stats__value">24.5k</p>
-      </div>
-      <div class="stats__item">
-        <svg class="card__button-icon"><use href="/svg/all.svg#icon-eye" /></svg>
-        <p class="stats__value">50k</p>
-      </div>
-      <div class="stats__item">
-        <svg class="card__button-icon"><use href="/svg/all.svg#icon-plane" /></svg>
-        <p class="stats__value">206</p>
-      </div>
-    </div>
+</div>
+ </div>  
     <div class="content">
     <div class="meta">
       <div class="meta_cont">
@@ -96,22 +90,37 @@
       </div>
     </div>
   </div>
+
+   <div class="stats">
+      <div class="stats__item">
+        <svg class="card__button-icon"><use href="./svg/heart.svg#heart-icon" /></svg>
+        <p class="stats__value">24.5k</p>
+      </div>
+      <div class="stats__item">
+        <svg class="card__button-icon"><use href="./svg/eye.svg#eye-icon" /></svg>
+        <p class="stats__value">50k</p>
+      </div>
+      <div class="stats__item">
+        <svg class="card__button-icon"><use href="./svg/plane.svg#plane-icon" /></svg>
+        <p class="stats__value">206</p>
+      </div>
+    </div>
+</div>
 </div>
 <div class="related">
       <div class="related__header">
         <h2 class="related__title">Similar News</h2>
-        <button class="button button--view-all">
-          <p class="button__text">View All News
-            <svg class="card__button-icon"><use href="/svg/all.svg#icon-arrow" /></svg>
-          </p>
+        <button class=" button--view-all">
+          <p class="button__text">View All News</p>
+           <svg class="card__button-icon"><use href="./svg/arrow2.svg#arrow" /></svg>
         </button>
       </div>
 
       <div class="related__list">
         <div class="news-card">
-          <picture class="news-card__image">
+           <picture class="news-card__image">
             <source>
-            <img src="./image/Image(1).png" alt="">
+            <img src="./images-html/Image(20).png" alt="">
           </picture>
           <div class="news-card__body">
             <div class="news-card__info">
@@ -119,26 +128,28 @@
               <p class="news-card__category">Politics</p>
             </div>
             <div class="news-card__stats">
+              <div class="news-card__buttons">
               <div class="news-card__stat">
-                <svg class="card__button-icon"><use href="/svg/all.svg#icon-heard" /></svg>
-                <p>2.2k</p>
+                <svg class="card__button-icon"><use href="./svg/heart1.svg#heart1" /></svg>
+                <p class="button__text">2.2k</p>
               </div>
               <div class="news-card__stat">
-                <svg class="card__button-icon"><use href="/svg/all.svg#icon-plane" /></svg>
-                <p>60</p>
+                <svg class="card__button-icon"><use href="./svg/plane.svg#plane-icon" /></svg>
+                <p class="button__text">60</p>
               </div>
             </div>
-            <button class="button button--read-more">
+            <button class=" button--read-more">
               <p class="button__text">Read More</p>
-              <svg class="card__button-icon"><use href="/svg/all.svg#icon-arrow" /></svg>
+              <svg class="card__button-icon"><use href="./svg/arrow2.svg#arrow" /></svg>
             </button>
+            </div>
           </div>
         </div>
 
         <div class="news-card">
           <picture class="news-card__image">
             <source>
-            <img src="./image/Image(2).png" alt="">
+            <img src="./images-html/Image(21).png" alt="">
           </picture>
           <div class="news-card__body">
             <div class="news-card__info">
@@ -146,27 +157,31 @@
               <p class="news-card__category">Technology</p>
             </div>
             <div class="news-card__stats">
+              <div class="news-card__buttons">
               <div class="news-card__stat">
-                <svg class="card__button-icon"><use href="/svg/all.svg#icon-heard" /></svg>
-                <p>6k</p>
+                <svg class="card__button-icon"><use href="./svg/heart1.svg#heart1" /></svg>
+                <p class="button__text">6k</p>
               </div>
               <div class="news-card__stat">
-                <svg class="card__button-icon"><use href="/svg/all.svg#icon-plane" /></svg>
-                <p>92</p>
+                <svg class="card__button-icon"><use href="./svg/plane.svg#plane-icon" /></svg>
+                <p class="button__text">92</p>
               </div>
-            </div>
+              </div>
+            
             <button class="button button--read-more">
               <p class="button__text">Read More</p>
-              <svg class="card__button-icon"><use href="/svg/all.svg#icon-arrow" /></svg>
+              <svg class="card__button-icon"><use href="./svg/arrow2.svg#arrow" /></svg>
             </button>
+            </div>
+            </div>
           </div>
-        </div>
+        
 
 
 <div class="news-card">
           <picture class="news-card__image">
             <source>
-            <img src="./image/Image(3).png" alt="">
+            <img src="./images-html/Image(22).png" alt="">
           </picture>
           <div class="news-card__body">
             <div class="news-card__info">
@@ -174,55 +189,27 @@
               <p class="news-card__category">Health</p>
             </div>
             <div class="news-card__stats">
+              <div class="news-card__buttons">
               <div class="news-card__stat">
-                <svg class="card__button-icon"><use href="/svg/all.svg#icon-heard" /></svg>
-                <p>10k</p>
+                <svg class="card__button-icon"><use href="./svg/heart1.svg#heart1" /></svg>
+                <p class="button__text">10k</p>
               </div>
               <div class="news-card__stat">
-                <svg class="card__button-icon"><use href="/svg/all.svg#icon-plane" /></svg>
-                <p>124</p>
+                <svg class="card__button-icon"><use href="./svg/plane.svg#plane-icon" /></svg>
+                <p class="button__text">124</p>
               </div>
             </div>
+            
             <button class="button button--read-more">
               <p class="button__text">Read More</p>
-              <svg class="card__button-icon"><use href="/svg/all.svg#icon-arrow" /></svg>
+              <svg class="card__button-icon"><use href="./svg/arrow2.svg#arrow" /></svg>
             </button>
+            </div>
           </div>
         </div>
       </div>
     </div>
+    </div>
   </section>
-</body>
-
-<header class="header">
-              <div class="header__top">
-                <div class="header__newsletter">
-                  <p class="header__newsletter-text">Subscribe to our Newsletter For New & latest Blogs and Resources</p>
-                </div>
-                <picture class="header__icon">
-                  <source media="(min-width: )" srcset="">
-                  <img src="/Icon.svg" alt="" class="header__icon-img">
-                </picture>
-              </div>
-              <div class="header__main">
-                <div class="header__logo-group">
-                  <picture class="header__logo">
-                    <source media="(min-width: )" srcset="/Logo.svg">
-                    <img src="./Logo.svg" alt="" class="header__logo-img">
-                  </picture>
-                  <picture class="header__heading">
-                    <img src="/Heading(1).svg" alt="" class="header__heading-img">
-                  </picture>
-                </div>
-                <div class="header__nav">
-                  <div class="header__nav-item"><button class="header__button">Home</button></div>
-                  <div class="header__nav-item"><button class="header__button">News</button></div>
-                  <div class="header__nav-item"><button class="header__button">Podcasts</button></div>
-                  <div class="header__nav-item"><button class="header__button"><p class="header__button-text">Resources</p></button></div>
-                  <div class="header__nav-item"><button class="header__button"><p class="header__button-text">Contact Us</p></button></div>
-                </div>
-              </div>
-            
-            
-            
+</body>       
 </html>
