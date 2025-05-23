@@ -13,53 +13,37 @@
   <link rel="shortcut icon" href="./icon/favicon.ico" />
   <link rel="apple-touch-icon" sizes="180x180" href="./icon/apple-touch-icon.png" />
   <link rel="manifest" href="./icon/site.webmanifest" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kumbh+Sans:wght@100..900&family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./reset.css">
+  <link rel="stylesheet" href="./News-Page.css">
 </head>
 
-<header class="header">
-  <div class="header__top">
-    <div class="header__newsletter">
-      <p class="header__newsletter-text">Subscribe to our Newsletter For New & latest Blogs and Resources</p>
-    </div>
-    <picture class="header__icon">
-      <source media="(min-width: )" srcset="">
-      <img src="/Icon.svg" alt="" class="header__icon-img">
-    </picture>
-  </div>
-  <div class="header__main">
-    <div class="header__logo-group">
-      <picture class="header__logo">
-        <source media="(min-width: )" srcset="/Logo.svg">
-        <img src="./Logo.svg" alt="" class="header__logo-img">
-      </picture>
-      <picture class="header__heading">
-        <img src="/Heading(1).svg" alt="" class="header__heading-img">
-      </picture>
-    </div>
-    <div class="header__nav">
-      <div class="header__nav-item"><button class="header__button">Home</button></div>
-      <div class="header__nav-item"><button class="header__button">News</button></div>
-      <div class="header__nav-item"><button class="header__button">Podcasts</button></div>
-      <div class="header__nav-item"><button class="header__button"><p class="header__button-text">Resources</p></button></div>
-      <div class="header__nav-item"><button class="header__button"><p class="header__button-text">Contact Us</p></button></div>
-    </div>
-  </div>
-</header>
 
 <body class="page">
+
   <div class="page__wrapper">
+    <section class="stay">
     <div class="headline">
+      <div class="headline__text-cont">
+        <div class="headline__title-cont">
       <h1 class="headline__main-title">Today's Headlines: Stay</h1>
       <div class="headline__block">
         <h1 class="headline__subtitle">Informed</h1>
+        </div>
         <p class="headline__description">Explore the latest news from around the world. We bring you up-to-the-minute updates on the most significant events, trends, and stories. Discover the world through our news coverage.</p>
       </div>
-      <div class="headline__content">
+      </div>
+      
         <div class="headline__card">
+          <div class="headline__content">
           <picture class="headline__image-wrapper">
             <source>
-            <img src="./image/Image(4).png" alt="" class="headline__image">
+            <img src="./images/Image(33).png" alt="" class="headline__image">
           </picture>
-          <div class="headline__text-content">
+          <div class="headline__info-container">
+          
             <div class="headline__article">
               <h1 class="headline__title">Global Climate Summit Addresses Urgent Climate Action</h1>
               <p class="headline__summary">World leaders gathered at the Global Climate Summit to discuss urgent climate action, emissions reductions, and renewable energy targets.</p>
@@ -78,108 +62,130 @@
                 <p class="headline__meta-value">Jane Smith</p>
               </div>
             </div>
+            
+            
+            
             <div class="headline__stats">
               <div class="headline__stats-wrapper">
+                <div class="news-card__text">
                 <div class="headline__stat">
-                  <svg class="card__button-icon"><use href="/svg/all.svg#icon-heard" /></svg>
+                  <svg class="card__button-icon"><use href="./svg/heart1.svg#heart1" /></svg>
                   <p class="headline__stat-value">14k</p>
                 </div>
                 <div class="headline__stat">
-                  <svg class="card__button-icon"><use href="/svg/all.svg#icon-plane" /></svg>
+                  <svg class="card__button-icon"><use href="./svg/plane.svg#plane-icon" /></svg>
                   <p class="headline__stat-value">204</p>
                 </div>
+                </div>
               </div>
-              <button class="button button--read-more">
+              <button class=" button--read-more">
                 <p class="button__text">Read More</p>
               </button>
             </div>
+          </div>
+          </div>
           </div>
         </div>
         <div class="related__list">
           <div class="news-card">
             <picture class="news-card__image">
               <source>
-              <img src="./image/Image(1).png" alt="" class="news-card__img">
+              <img src="./images/Image(34).png" alt="" class="news-card__img">
             </picture>
             <div class="news-card__body">
               <div class="news-card__info">
                 <h2 class="news-card__title">A Decisive Victory for Progressive Policies</h2>
                 <p class="news-card__category">Politics</p>
               </div>
+              
               <div class="news-card__stats">
+                <div class="news-card__text">
                 <div class="news-card__stat">
-                  <svg class="card__button-icon"><use href="/svg/all.svg#icon-heard" /></svg>
+                  <svg class="card__button-icon"><use href="./svg/heart1.svg#heart1" /></svg>
 
 
 <p>2.2k</p>
                 </div>
                 <div class="news-card__stat">
-                  <svg class="card__button-icon"><use href="/svg/all.svg#icon-plane" /></svg>
+                  <svg class="card__button-icon"><use href="./svg/plane.svg#plane-icon" /></svg>
                   <p>60</p>
                 </div>
-              </div>
-              <button class="button button--read-more">
+                </div>
+                <button class="button button--read-more">
                 <p class="button__text">Read More</p>
-                 <svg class="card__button-icon"><use href="/svg/all.svg#icon-arrow" /></svg>
+                 <svg class="card__button-icon"><use href="./svg/arrow2.svg#arrow" /></svg>
               </button>
+              </div>
+              
             </div>
           </div>
 
           <div class="news-card">
             <picture class="news-card__image">
               <source>
-              <img src="./image/Image(2).png" alt="" class="news-card__img">
+              <img src="./images/Image(35).png" alt="" class="news-card__img">
             </picture>
             <div class="news-card__body">
               <div class="news-card__info">
                 <h2 class="news-card__title">Tech Giants Unveil Cutting-Edge AI Innovations</h2>
                 <p class="news-card__category">Technology</p>
               </div>
-              <div class="news-card__stats">
+               <div class="news-card__stats">
+                <div class="news-card__text">
                 <div class="news-card__stat">
-                  <svg class="card__button-icon"><use href="/svg/all.svg#icon-heard" /></svg>
-                  <p>6k</p>
+                  <svg class="card__button-icon"><use href="./svg/heart1.svg#heart1" /></svg>
+
+
+<p>6k</p>
                 </div>
                 <div class="news-card__stat">
-                  <svg class="card__button-icon"><use href="/svg/all.svg#icon-plane" /></svg>
+                  <svg class="card__button-icon"><use href="./svg/plane.svg#plane-icon" /></svg>
                   <p>92</p>
                 </div>
-              </div>
-              <button class="button button--read-more">
+                </div>
+                <button class="button button--read-more">
                 <p class="button__text">Read More</p>
-                <svg class="card__button-icon"><use href="/svg/all.svg#icon-arrow" /></svg>
+                 <svg class="card__button-icon"><use href="./svg/arrow2.svg#arrow" /></svg>
               </button>
+              </div>
+              
             </div>
           </div>
 
           <div class="news-card">
             <picture class="news-card__image">
               <source>
-              <img src="./image/Image(3).png" alt="" class="news-card__img">
+              <img src="./images/Image(36).png" alt="" class="news-card__img">
             </picture>
             <div class="news-card__body">
               <div class="news-card__info">
                 <h2 class="news-card__title">COVID-19 Variants</h2>
                 <p class="news-card__category">Health</p>
               </div>
+              
               <div class="news-card__stats">
+                <div class="news-card__text">
                 <div class="news-card__stat">
-                  <svg class="card__button-icon"><use href="/svg/all.svg#icon-heard" /></svg>
-                  <p>10k</p>
+                  <svg class="card__button-icon"><use href="./svg/heart1.svg#heart1" /></svg>
+
+
+<p>10k</p>
                 </div>
                 <div class="news-card__stat">
-                  <svg class="card__button-icon"><use href="/svg/all.svg#icon-plane" /></svg>
+                  <svg class="card__button-icon"><use href="./svg/plane.svg#plane-icon" /></svg>
                   <p>124</p>
                 </div>
-              </div>
-              <button class="button button--read-more">
+                </div>
+                <button class="button button--read-more">
                 <p class="button__text">Read More</p>
-                <svg class="card__button-icon"><use href="/svg/all.svg#icon-arrow" /></svg>
+                 <svg class="card__button-icon"><use href="./svg/arrow2.svg#arrow" /></svg>
               </button>
+              </div>
+              
             </div>
           </div>
-        </div>
-        <div class="intro">
+        </section>
+        <section class="intro">
           <div class="intro__wrapper">
             <div class="intro__text-block">
               <div class="intro__text">
@@ -325,9 +331,9 @@
                 <svg class="card__button-icon"><use href="/svg/all.svg#icon-arrow" /></svg>
               </button>
             </div>
-          </div>
+          </section>
   
-          <div class="videos">
+          <section class="videos">
             <div class="videos__header">
               <div class="videos__intro">
                 <p class="videos__label">Featured Videos</p>
@@ -382,150 +388,6 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
   </body>
-  Данило Кагарлицький, [17.04.2025 21:08]
-<header class="header">
-              <div class="header__top">
-                <div class="header__newsletter">
-                  <p class="header__newsletter-text">Subscribe to our Newsletter For New & latest Blogs and Resources</p>
-                </div>
-                <picture class="header__icon">
-                  <source media="(min-width: )" srcset="">
-                  <img src="/Icon.svg" alt="" class="header__icon-img">
-                </picture>
-              </div>
-              <div class="header__main">
-                <div class="header__logo-group">
-                  <picture class="header__logo">
-                    <source media="(min-width: )" srcset="/Logo.svg">
-                    <img src="./Logo.svg" alt="" class="header__logo-img">
-                  </picture>
-                  <picture class="header__heading">
-                    <img src="/Heading(1).svg" alt="" class="header__heading-img">
-                  </picture>
-                </div>
-                <div class="header__nav">
-                  <div class="header__nav-item"><button class="header__button">Home</button></div>
-                  <div class="header__nav-item"><button class="header__button">News</button></div>
-                  <div class="header__nav-item"><button class="header__button">Podcasts</button></div>
-                  <div class="header__nav-item"><button class="header__button"><p class="header__button-text">Resources</p></button></div>
-                  <div class="header__nav-item"><button class="header__button"><p class="header__button-text">Contact Us</p></button></div>
-                </div>
-              </div>
-            </header>
-            
-            <footer class="footer">
-              <div class="footer__top">
-                <div class="footer__section">
-                  <h2 class="footer__title">Home</h2>
-                  <ul class="footer__list list">
-                    <li class="list__item"><a href="">Features</a></li>
-                    <li class="list__item"><a href="">Blogs</a></li>
-                    <li class="list__item"><a href="">Resources</a></li>
-                    <li class="list__item"><a href="">Testimonials</a></li>
-                    <li class="list__item"><a href="">Contact Us</a></li>
-                    <li class="list__item"><a href="">Newsletter</a></li>
-                  </ul>
-                </div>
-                <div class="footer__section">
-                  <h2 class="footer__title">News</h2>
-                  <ul class="footer__list list">
-                    <li class="list__item"><a href="">Trending Stories</a></li>
-                    <li class="list__item"><a href="">Featured Videos</a></li>
-                    <li class="list__item"><a href="">Technology</a></li>
-                    <li class="list__item"><a href="">Health</a></li>
-                    <li class="list__item"><a href="">Politics</a></li>
-                    <li class="list__item"><a href="">Environment</a></li>
-                  </ul>
-                </div>
-                <div class="footer__section">
-                  <h2 class="footer__title">Blogs</h2>
-                  <ul class="footer__list list">
-                    <li class="list__item"><a href="">Quantum Computing</a></li>
-                    <li class="list__item"><a href="">AI Ethics</a></li>
-                    <li class="list__item"><a href="">Space Exploration</a></li>
-                    <li class="list__item"><a href="">Biotechnology</a></li>
-                    <li class="list__item"><a href="">Renewable Energy</a></li>
-                    <li class="list__item"><a href="">Biohacking</a></li>
-                  </ul>
-                </div>
-                <div class="footer__section">
-                  <h2 class="footer__title">Podcasts</h2>
-                  <ul class="footer__list list">
-                    <li class="list__item"><a href="">AI Revolution</a></li>
-                    <li class="list__item"><a href="">AI Revolution</a></li>
-                    <li class="list__item"><a href="">TechTalk AI</a></li>
-
-Данило Кагарлицький, [17.04.2025 21:08]
-<li class="list__item"><a href="">AI Conversations</a></li>
-                  </ul>
-                </div>
-                <div class="footer__section">
-                  <h2 class="footer__title">Resources</h2>
-                  <button class="footer__button">
-                    <p class="footer__button-text">Whitepapers</p>
-                    <picture class="footer__icon">
-                      <source media="(min-width: )" srcset="">
-                      <img src="/Icon.svg" alt="">
-                    </picture>
-                  </button>
-                  <button class="footer__button">
-                    <p class="footer__button-text">Ebooks</p>
-                    <picture class="footer__icon">
-                      <source media="(min-width: )" srcset="">
-                      <img src="/Icon.svg" alt="">
-                    </picture>
-                  </button>
-                  <button class="footer__button">
-                    <p class="footer__button-text">Reports</p>
-                    <picture class="footer__icon">
-            
-            <source media="(min-width: )" srcset="">
-                      <img src="/Icon.svg" alt="">
-                    </picture>
-                  </button>
-                  <button class="footer__button">
-                    <p class="footer__button-text">Research Papers</p>
-                    <picture class="footer__icon">
-                      <source media="(min-width: )" srcset="">
-                      <img src="/Icon.svg" alt="">
-                    </picture>
-                  </button>
-                </div>
-              </div>
-            
-              <div class="footer__bottom">
-                <div class="footer__legal">
-                  <ul class="footer__list list">
-                    <li class="list__item"><a href="">Terms & Conditions|Privacy Policy</a></li>
-                  </ul>
-                </div>
-                <div class="footer__socials">
-                  <button class="footer__social-button">
-                    <picture>
-                      <source media="(min-width: )" srcset="">
-                      <img src="/Vector (2).svg" alt="">
-                    </picture>
-                  </button>
-                  <button class="footer__social-button">
-                    <picture>
-                      <source media="(min-width: )" srcset="">
-                      <img src="/Icon (2).svg" alt="">
-                    </picture>
-                  </button>
-                  <button class="footer__social-button">
-                    <picture>
-                      <source media="(min-width: )" srcset="">
-                      <img src="/Vector (1).svg" alt="">
-                    </picture>
-                  </button>
-                </div>
-                <div class="footer__copyright">
-                  <ul class="footer__list list">
-                    <li class="list__item"><a href="">© 2024 FutureTech. All rights reserved.</a></li>
-                  </ul>
-                </div>
-              </div>
-            </footer>
   </html>
