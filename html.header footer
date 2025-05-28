@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <html>
+        <body>
+            <header class="header">
+              <div class="header__top">
+                <div class="header__newsletter">
+                  <p class="header__newsletter-text">Subscribe to our Newsletter For Blogs and Resources</p>
+                </div>
+                <picture class="header__icon">
+                  <source media="(min-width: )" srcset="">
+                  <img src="/Icon.svg" alt="" class="header__icon-img">
+                </picture>
+              </div>
+              <div class="header__main">
+                  <picture class="header__logo">
+                    <source media="(min-width: )" srcset="/Logo.svg">
+                    <img src="./Logo.svg" alt="" class="header__logo-img">
+                  </picture>
+                  <picture class="header__heading">
+                    <img src="/Heading(1).svg" alt="" class="header__heading-img">
+                  </picture>
+                  <picture>
+                    <source>
+                    <img src="/Vector (Stroke).svg" alt="" class="header__Vector-img">
+                  </picture>
+              </div>
+            </header>
+            <main></main>
+            <footer class="footer">
+              <div class="footer__top">
+               <div class="footer__section">
+                  <h2 class="footer__title">Home</h2>
+                  <ul class="footer__list ">
+                    <li class="list__item"><a class="footer__link" href="">Features</a></li>
+                    <li class="list__item"><a class="footer__link" href="">Blogs</a></li>
+                    <li class="list__item"><a class="footer__link" href="">Resources</a></li>
+                    <li class="list__item"><a class="footer__link" href="">Testimonials</a></li>
+                    <li class="list__item"><a class="footer__link" href="">Contact Us</a></li>
+                    <li class="list__item"><a class="footer__link" href="">Newsletter</a></li>
+                  </ul>
+                  <h2 class="footer__title">News</h2>
+                  <ul class="footer__list ">
+                    <li class="list__item"><a class="footer__link" href="">Trending Stories</a></li>
+                    <li class="list__item"><a class="footer__link" href="">Featured Videos</a></li>
+                    <li class="list__item"><a class="footer__link" href="">Technology</a></li>
+                    <li class="list__item"><a class="footer__link" href="">Technology</a></li>
+                    <li class="list__item"><a class="footer__link" href="">Health</a></li>
+                    <li class="list__item"><a class="footer__link" href="">Politics</a></li>
+                    <li class="list__item"><a class="footer__link" href="">Environment</a></li>
+                  </ul>
+                </div>
+                <div class="footer__section">
+                  <h2 class="footer__title">Blogs</h2>
+                  <ul class="footer__list ">
+                    <li class="list__item"><a class="footer__link" href="">Quantum Computing</a></li>
+                    <li class="list__item"><a class="footer__link" href="">AI Ethics</a></li>
+                    <li class="list__item"><a class="footer__link" href="">Space Exploration</a></li>
+                    <li class="list__item"><a class="footer__link" href="">Biotechnology</a></li>
+                    <li class="list__item"><a class="footer__link" href="">Renewable Energy</a></li>
+                    <li class="list__item"><a class="footer__link" href="">Biohacking</a></li>
+                  </ul>
+                  <h2 class="footer__title">Podcasts</h2>
+                  <ul class="footer__list ">
+                    <li class="list__item"><a class="footer__link" href="">AI Revolution</a></li>
+                    <li class="list__item"><a class="footer__link" href="">AI Revolution</a></li>
+                    <li class="list__item"><a class="footer__link" href="">TechTalk AI</a></li>
+                    <li class="list__item"><a class="footer__link" href="">AI Conversations</a></li>
+                  </ul>
+                </div>
+                <div class="footer__section">
+                  <h2 class="footer__title">Resources</h2>
+                  <button class="footer__button">
+                    <p class="footer__button-text">Whitepapers</p>
+                    <picture class="footer__icon">
+                      <source media="(min-width:326*1228 )" srcset="">
+                      <img src="/Icon.svg" alt="arrow">
+                    </picture>
+                  </button>
+                  <button class="footer__button">
+                    <p class="footer__button-text">Ebooks</p>
+                    <picture class="footer__icon">
+                      <source media="(min-width: )" srcset="">
+                      <img src="/Icon.svg" alt="arrow">
+                    </picture>
+                  </button>
+                  <button class="footer__button">
+                    <p class="footer__button-text">Reports</p>
+                    <picture class="footer__icon">
+            <source media="(min-width: )" srcset="">
+                      <img src="/Icon.svg" alt="arrow">
+                    </picture>
+                  </button>
+                  <button class="footer__button">
+                    <p class="footer__button-text">Research Papers</p>
+                    <picture class="footer__icon">
+                      <source media="(min-width: )" srcset="">
+                      <img src="/Icon.svg" alt="arrow">
+                    </picture>
+                  </button>
+                </div>
+              </div>
+              <div class="footer__bottom">
+                <div class="footer__socials">
+                  <button class="footer__social-button">
+                    <picture>
+                      <source media="(min-width: )" srcset="">
+                      <img src="/Vector (2).svg" alt="">
+                    </picture>
+                  </button>
+                  <button class="footer__social-button">
+                    <picture>
+                      <source media="(min-width: )" srcset="">
+                      <img src="/Icon (2).svg" alt="">
+                    </picture>
+                  </button>
+                  <button class="footer__social-button">
+                    <picture>
+                      <source media="(min-width: )" srcset="">
+                      <img src="/Vector (1).svg" alt="">
+                    </picture>
+                  </button>
+                </div>
+                <div class="footer__legal">
+                  <ul class="footer__list ">
+                    <li class="list__item"><a class="footer__link" href="">Terms & Conditions|Privacy Policy</a></li>
+                  </ul>
+                </div>
+                <div class="footer__copyright">
+                  <ul class="footer__list ">
+                    <li class="list__item"><a class="footer__link" href="">© 2024 FutureTech. All rights reserved.</a></li>
+                  </ul>
+                </div>
+              </div>
+            </footer>
+</body>
+</html>
