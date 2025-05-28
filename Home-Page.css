@@ -1298,6 +1298,7 @@
     letter-spacing: -0.42px;
   }
   .hero__cards {
+<<<<<<< HEAD
     display: flex;
     padding: 0px 80px;
     align-items: flex-start;
@@ -1348,6 +1349,8 @@
 }
 @media (width: 1440px) { 
 .hero{
+=======
+>>>>>>> 4ade3bab7f1c7e092b46b12662187956651815ba
     display: flex;
     padding: 0px 80px;
     align-items: flex-start;
@@ -1691,4 +1694,4 @@ flex: 1 0 0;
 .rait-deskr{
     font-size: 16px;
 }
-}
+
